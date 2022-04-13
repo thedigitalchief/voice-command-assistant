@@ -1,6 +1,11 @@
-# dylan-teddy-project-1
+# Text-to-Speech Voice Assistant
 
-ideas:
-- text to speech bot or assistant
-- automated job/internship application filler
-- automated trading bot
+## About
+
+
+## Features
+
+
+## Challenges
+
+
