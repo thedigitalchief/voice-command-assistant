@@ -1,4 +1,4 @@
-# Text-to-Speech Voice Assistant
+# Automated Speech Voice Assistant
 
 ## About
 
