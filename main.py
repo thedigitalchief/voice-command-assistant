@@ -49,7 +49,9 @@ def take_command():
             if 'computer' in command:
                 command = command.replace('computer', '')
                 print(command)
-                
+    except:
+            pass   
+                    
     return command
 
 
