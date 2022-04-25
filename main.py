@@ -17,17 +17,19 @@ from keyboard import press_and_release
 import webbrowser
 
 
-# initial variable setup with engine and listener
+# initializing variables along with engine and listener
 listener = sr.Recognizer()
 engine = pyttsx3.init('sapi5')
 rate = engine.getProperty("rate")
 engine.setProperty("rate", 180)
 
-# talk() function that takes text from the user
+
+# function that takes text from the user
 def talk(text):
     engine.say(text)
     engine.runAndWait()
     
+
 talk('Hello sir')
 
 
@@ -38,13 +40,18 @@ def take_command():
             voice = listener.listen(source)
             global command
             command = listener.recognize_google(voice)
-        
+            command = command.lower()
+
             if 'computer' in command:
                 command = command.replace('computer', '')
+                print(command)
                 
     return command
 
+
+
 def run_computer():
+
 
 
 run_computer()    
