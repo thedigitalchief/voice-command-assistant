@@ -1,14 +1,14 @@
-from re import search
 from click import command
+from re import search
 import speech_recognition as sr
-import pyttsx3 
+import pyttsx3
 import pywhatkit
 import datetime
 import wikipedia
 import pyjokes
 import pyautogui
 import os
-import subprocess 
+import subprocess
 import sys
 from bs4 import BeautifulSoup
 import requests
@@ -32,7 +32,16 @@ talk('Hello sir')
 
 
 def take_command():
-
+    try:
+        with sr.Microphone() as source:
+            print('listening...')
+            voice = listener.listen(source)
+            global command
+            command = listener.recognize_google(voice)
+        
+            if 'computer' in command:
+                command = command.replace('computer', '')
+                
     return command
 
 def run_computer():
