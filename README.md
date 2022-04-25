@@ -1,11 +1,11 @@
-# Automated Speech Voice Assistant
+# Automated Virtual Voice Assistant
 
 ## About
-
-
-## Features
-
+  * developed with Python3
+  * takes speech input from user and perfoms automated virtual commands
 
 ## Challenges
+
+## What's next?
 
 
