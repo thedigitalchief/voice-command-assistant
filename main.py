@@ -57,14 +57,23 @@ def take_command():
 
 
 def run_computer():
-   command = take_command()
-   
-   if 'play' in command:
+    command = take_command()
+
+    if 'play' in command:
        song = command.replace('play', '')
        pywhatkit.playonyt(song)
        if 'pause' in command:
            press('pause')
 
+    elif 'time' in command:
+        time = datetime.datetime.now().strftime('%H:%M')
+        talk('the time is ' + time)
+        
+    elif 'who is' in command:
+        person = command.replace('who is', '')
+        info = wikipedia.summary(person, 1)
+        print(info)
+        talk(info)
 
 run_computer()    
 
