@@ -29,4 +29,3 @@ def talk(text):
     
 
 talk('Hello sir')
-
