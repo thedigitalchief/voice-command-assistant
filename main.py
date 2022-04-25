@@ -24,15 +24,17 @@ rate = engine.getProperty("rate")
 engine.setProperty("rate", 180)
 
 
-# function that takes text from the user
+# function that takes input text from the user
 def talk(text):
     engine.say(text)
     engine.runAndWait()
     
 
+# outputs voice prompt "Hello sir"
 talk('Hello sir')
 
 
+# takes user input via voice 
 def take_command():
     try:
         with sr.Microphone() as source:
