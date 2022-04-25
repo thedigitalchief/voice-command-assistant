@@ -75,6 +75,12 @@ def run_computer():
         print(info)
         talk(info)
 
+    elif 'joke' in command:
+        talk(pyjokes.get_joke())
+        
+    elif 'volume up 6' in command:
+        (pyautogui.press("volumeup"))*3                   
+
 run_computer()    
 
 
