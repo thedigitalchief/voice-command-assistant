@@ -15,6 +15,8 @@ import requests
 from keyboard import press
 from keyboard import press_and_release
 import webbrowser
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 
 
 # initializing variables along with engine and listener
@@ -57,3 +59,13 @@ def run_computer():
 
 
 run_computer()    
+
+
+# cd <project>/
+# virtualenv venv
+
+#virtualenv venv --system-site-packages
+# source venv/bin/activate
+# deacticate
+
+# Python 3.10: universal2 for Mac M1 devies
