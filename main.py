@@ -51,13 +51,19 @@ def take_command():
                 print(command)
     except:
             pass   
-                    
+
     return command
 
 
 
 def run_computer():
-
+   command = take_command()
+   
+   if 'play' in command:
+       song = command.replace('play', '')
+       pywhatkit.playonyt(song)
+       if 'pause' in command:
+           press('pause')
 
 
 run_computer()    
