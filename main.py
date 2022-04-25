@@ -20,3 +20,10 @@ listener = sr.Recognizer()
 engine = pyttsx3.init('sapi5')
 rate = engine.getProperty("rate")
 engine.setProperty("rate", 180)
+
+def talk(text):
+    engine.say(text)
+    engine.runAndWait()
+    
+
+talk('Hello sir')
