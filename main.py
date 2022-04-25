@@ -1,4 +1,5 @@
 from re import search
+from click import command
 import speech_recognition as sr
 import pyttsx3 
 import pywhatkit
@@ -27,5 +28,14 @@ def talk(text):
     engine.say(text)
     engine.runAndWait()
     
-
 talk('Hello sir')
+
+
+def take_command():
+
+    return command
+
+def run_computer():
+
+
+run_computer()    
