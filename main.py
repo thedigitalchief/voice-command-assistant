@@ -77,9 +77,15 @@ def run_computer():
 
     elif 'joke' in command:
         talk(pyjokes.get_joke())
-        
+
     elif 'volume up 6' in command:
-        (pyautogui.press("volumeup"))*3                   
+        (pyautogui.press("volumeup"))*3 
+
+    elif 'volume mute' in command:
+        pyautogui.press("volumemute")                  
+
+    elif 'shut down' in command or 'power off' in command:
+        sys.exit()
 
 run_computer()    
 
