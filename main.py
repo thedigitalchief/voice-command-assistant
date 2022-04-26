@@ -84,6 +84,15 @@ def run_computer():
 
     elif 'shut down' in command or 'power off' in command:
         sys.exit()
+    
+    # weather command
+    elif 'temperature' in command or 'weather' in command:
+        search = "local temperature"
+        url = f"https://www.google.com/search?q={search}"
+        r = requests.get(url)
+        data = BeautifulSoup(r.text, "html.parser")
+        temp = data.find("div", class_="BNeawe").text
+        talk(f"it is {temp}")
 
 run_computer()    
 
