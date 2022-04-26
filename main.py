@@ -282,6 +282,13 @@ def run_computer():
         ss = pyautogui.screenshot()
         ss.save(path1)
         os.startfile("[drivename]:\\[pathname]\\")
+     
+    # if computer does not recognize command
+    else:
+        print('please repeat that sir')
+
+    while True:
+        run_computer()
 run_computer()    
 
 
