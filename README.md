@@ -1,6 +1,15 @@
-# dylan-teddy-project-1
+# Automated Virtual Voice Assistant
 
-ideas:
-- text to speech bot or assistant
-- automated job/internship application filler
-- automated trading bot
+## Authors
+  * Dylan Nguyen: https://github.com/thedigitalchief
+  * Theodore Horvath: https://github.com/HorvathTeddy
+
+## About
+  * developed with Python3
+  * takes speech input from user and perfoms automated virtual commands
+
+## Challenges
+
+## What's next?
+
+
