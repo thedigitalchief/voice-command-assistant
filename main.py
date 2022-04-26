@@ -83,8 +83,184 @@ def run_computer():
     elif 'volume mute' in command:
         pyautogui.press("volumemute")                  
 
+    elif 'volume up 8' in command:
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+
+    elif 'volume up 10' in command:
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+
+    elif 'volume up 12' in command:
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+
+    elif 'volume up 14' in command:
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+
+    elif 'volume up 16' in command:
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+
+    elif 'volume up 18' in command:
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+
+    elif 'volume up 20' in command:
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+
+    elif 'volume up 30' in command:
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+
+    elif 'volume up 40' in command:
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+        pyautogui.press("volumeup")
+
+    elif 'volume down 4' in command:
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+
+    elif 'volume down 6' in command:
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+
+    elif 'volume down 8' in command:
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+
+    elif 'volume down 10' in command:
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+
+    elif 'volume down 12' in command:
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+
+    elif 'volume down 14' in command:
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+
+    elif 'volume down 16' in command:
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+
+    elif 'volume down 18' in command:
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+
+    elif 'volume down 20' in command:
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+        pyautogui.press("volumedown")
+
+
     elif 'shut down' in command or 'power off' in command:
-        sys.exit()
+            sys.exit()
+
 
 run_computer()    
 
