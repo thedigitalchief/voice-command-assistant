@@ -97,7 +97,16 @@ def run_computer():
     elif 'search' in command:
         search = command.replace('search', '')
         pywhatkit.search(search)
-
+    
+    # screenshot command
+    elif 'screenshot' in command:
+        talk('What shall I name the image sir?')
+        path = take_command()
+        path1name = path + ".png"
+        path1 = "[drivename]:\\[pathname]\\" + path1name
+        ss = pyautogui.screenshot()
+        ss.save(path1)
+        os.startfile("[drivename]:\\[pathname]\\")
 run_computer()    
 
 
