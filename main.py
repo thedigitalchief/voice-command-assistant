@@ -18,6 +18,8 @@ import webbrowser
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
+<<<<<<< HEAD
+=======
 
 # initializing variables along with engine and listener
 listener = sr.Recognizer()
@@ -34,6 +36,9 @@ def talk(text):
 
 # outputs voice prompt "Hello sir"
 talk('Hello sir')
+<<<<<<< HEAD
+>>>>>>> e343feddfed297c977940a22350c169c520e02c9
+=======
 
 
 # takes user input via voice 
@@ -98,3 +103,4 @@ run_computer()
 # deacticate
 
 # Python 3.10: universal2 for Mac M1 devies
+>>>>>>> f8b93cf1d3f26cbf8283748724a467fa704bb566
