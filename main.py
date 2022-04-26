@@ -93,6 +93,11 @@ def run_computer():
         data = BeautifulSoup(r.text, "html.parser")
         temp = data.find("div", class_="BNeawe").text
         talk(f"it is {temp}")
+    
+    # search google command
+    elif 'search' in command:
+        search = command.replace('search', '')
+        pywhatkit.search(search)
 
 run_computer()    
 
