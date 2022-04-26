@@ -16,8 +16,7 @@ from keyboard import press
 from keyboard import press_and_release
 import webbrowser
 import ssl
-ssl._create_default_https_context = ssl._create_unverified_context
-
+#ssl._create_default_https_context = ssl._create_unverified_context
 
 # initializing variables along with engine and listener
 listener = sr.Recognizer()
@@ -34,7 +33,6 @@ def talk(text):
 
 # outputs voice prompt "Hello sir"
 talk('Hello sir')
-
 
 # takes user input via voice 
 def take_command():
@@ -259,8 +257,21 @@ def run_computer():
 
 
     elif 'shut down' in command or 'power off' in command:
-            sys.exit()
-
+        sys.exit()
+    
+    # weather command
+    elif 'temperature' in command or 'weather' in command:
+        search = "local temperature"
+        url = f"https://www.google.com/search?q={search}"
+        r = requests.get(url)
+        data = BeautifulSoup(r.text, "html.parser")
+        temp = data.find("div", class_="BNeawe").text
+        talk(f"it is {temp}")
+    
+    # search google command
+    elif 'search' in command:
+        search = command.replace('search', '')
+        pywhatkit.search(search)
 
 run_computer()    
 
