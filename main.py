@@ -16,12 +16,7 @@ from keyboard import press
 from keyboard import press_and_release
 import webbrowser
 import ssl
-<<<<<<< HEAD
-ssl._create_default_https_context = ssl._create_unverified_context
-
-=======
 #ssl._create_default_https_context = ssl._create_unverified_context
->>>>>>> refs/remotes/origin/teddy/development
 
 # initializing variables along with engine and listener
 listener = sr.Recognizer()
@@ -38,10 +33,6 @@ def talk(text):
 
 # outputs voice prompt "Hello sir"
 talk('Hello sir')
-<<<<<<< HEAD
-
-=======
->>>>>>> refs/remotes/origin/teddy/development
 
 # takes user input via voice 
 def take_command():
